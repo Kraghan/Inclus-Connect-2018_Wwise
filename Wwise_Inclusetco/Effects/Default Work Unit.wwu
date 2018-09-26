@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4F1E855C-94FD-4DEB-829E-9E0EBB455719}" SchemaVersion="89">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{4F1E855C-94FD-4DEB-829E-9E0EBB455719}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4F1E855C-94FD-4DEB-829E-9E0EBB455719}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Pitch_Shifter" ID="{5BA91A0B-AFDA-4910-909B-2E648F5EB2B3}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3"/>
+				<Effect Name="New_Wwise_Time_Stretch" ID="{FF3DF56C-1CD5-472C-87BA-BBFE02B3B352}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

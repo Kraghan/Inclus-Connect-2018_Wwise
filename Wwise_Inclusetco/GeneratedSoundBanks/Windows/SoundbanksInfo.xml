@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\</ProjectRoot>
+		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="251770488" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\INCLUETCOMAIN</ObjectPath>
+			<ShortName>INCLUETCOMAIN</ShortName>
+			<Path>INCLUETCOMAIN.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1058038914" Name="Play_MUSICGLOBAL" ObjectPath="\Events\Default Work Unit\Play_MUSICGLOBAL"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="16680800" Language="SFX">
+					<ShortName>SHAKER.wav</ShortName>
+					<Path>SFX\SHAKER_7CB04C8C.wem</Path>
+				</File>
+				<File Id="99668524" Language="SFX">
+					<ShortName>DARBUKA.wav</ShortName>
+					<Path>SFX\DARBUKA_7CB04C8C.wem</Path>
+				</File>
+				<File Id="192356166" Language="SFX">
+					<ShortName>ARP SYNTH.wav</ShortName>
+					<Path>SFX\ARP SYNTH_7CB04C8C.wem</Path>
+				</File>
+				<File Id="321824748" Language="SFX">
+					<ShortName>SYNTHBASS.wav</ShortName>
+					<Path>SFX\SYNTHBASS_7CB04C8C.wem</Path>
+				</File>
+				<File Id="590797557" Language="SFX">
+					<ShortName>TAIKOS.wav</ShortName>
+					<Path>SFX\TAIKOS_7CB04C8C.wem</Path>
+				</File>
+				<File Id="623369400" Language="SFX">
+					<ShortName>MALE SHOUT.wav</ShortName>
+					<Path>SFX\MALE SHOUT_7CB04C8C.wem</Path>
+				</File>
+				<File Id="635068677" Language="SFX">
+					<ShortName>LEAD FEMALE SINGER.wav</ShortName>
+					<Path>SFX\LEAD FEMALE SINGER_7CB04C8C.wem</Path>
+				</File>
+				<File Id="762442242" Language="SFX">
+					<ShortName>RIQ.wav</ShortName>
+					<Path>SFX\RIQ_7CB04C8C.wem</Path>
+				</File>
+				<File Id="852013581" Language="SFX">
+					<ShortName>REVERSE CRASH.wav</ShortName>
+					<Path>SFX\REVERSE CRASH_7CB04C8C.wem</Path>
+				</File>
+				<File Id="978894297" Language="SFX">
+					<ShortName>GONG.wav</ShortName>
+					<Path>SFX\GONG_7CB04C8C.wem</Path>
+				</File>
+				<File Id="979045238" Language="SFX">
+					<ShortName>SHEPHERD HORN.wav</ShortName>
+					<Path>SFX\SHEPHERD HORN_7CB04C8C.wem</Path>
+				</File>
+				<File Id="1069133955" Language="SFX">
+					<ShortName>TUVAN MALE VOICE.wav</ShortName>
+					<Path>SFX\TUVAN MALE VOICE_7CB04C8C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
