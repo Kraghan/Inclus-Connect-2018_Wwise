@@ -17,6 +17,7 @@
 			<Path>INCLUETCOMAIN.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4013708024" Name="Play_Destroy" ObjectPath="\Events\Default Work Unit\Play_Destroy"/>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps"/>
 				<Event Id="1058038914" Name="Play_MUSICGLOBAL" ObjectPath="\Events\Default Work Unit\Play_MUSICGLOBAL"/>
 				<Event Id="1311704800" Name="Stop_MUSICGLOBAL" ObjectPath="\Events\Default Work Unit\Stop_MUSICGLOBAL" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
@@ -24,6 +25,14 @@
 				<File Id="16680800" Language="SFX">
 					<ShortName>SHAKER.wav</ShortName>
 					<Path>SFX\SHAKER_7CB04C8C.wem</Path>
+				</File>
+				<File Id="22502188" Language="SFX">
+					<ShortName>Foosteps-008.wav</ShortName>
+					<Path>SFX\Foosteps-008_2A91B1B2.wem</Path>
+				</File>
+				<File Id="44933870" Language="SFX">
+					<ShortName>Foosteps-010.wav</ShortName>
+					<Path>SFX\Foosteps-010_2A91B1B2.wem</Path>
 				</File>
 				<File Id="99668524" Language="SFX">
 					<ShortName>DARBUKA.wav</ShortName>
@@ -37,9 +46,25 @@
 					<ShortName>Destroy-001.wav</ShortName>
 					<Path>SFX\Destroy-001_2A91B1B2.wem</Path>
 				</File>
+				<File Id="275579964" Language="SFX">
+					<ShortName>Foosteps-011.wav</ShortName>
+					<Path>SFX\Foosteps-011_2A91B1B2.wem</Path>
+				</File>
 				<File Id="321824748" Language="SFX">
 					<ShortName>SYNTHBASS.wav</ShortName>
 					<Path>SFX\SYNTHBASS_7CB04C8C.wem</Path>
+				</File>
+				<File Id="327839617" Language="SFX">
+					<ShortName>Foosteps-002.wav</ShortName>
+					<Path>SFX\Foosteps-002_2A91B1B2.wem</Path>
+				</File>
+				<File Id="376523382" Language="SFX">
+					<ShortName>Foosteps-003.wav</ShortName>
+					<Path>SFX\Foosteps-003_2A91B1B2.wem</Path>
+				</File>
+				<File Id="483267495" Language="SFX">
+					<ShortName>Foosteps-001.wav</ShortName>
+					<Path>SFX\Foosteps-001_2A91B1B2.wem</Path>
 				</File>
 				<File Id="590797557" Language="SFX">
 					<ShortName>TAIKOS.wav</ShortName>
@@ -57,13 +82,29 @@
 					<ShortName>LEAD FEMALE SINGER.wav</ShortName>
 					<Path>SFX\LEAD FEMALE SINGER_7CB04C8C.wem</Path>
 				</File>
+				<File Id="711412047" Language="SFX">
+					<ShortName>Foosteps-004.wav</ShortName>
+					<Path>SFX\Foosteps-004_2A91B1B2.wem</Path>
+				</File>
 				<File Id="762442242" Language="SFX">
 					<ShortName>RIQ.wav</ShortName>
 					<Path>SFX\RIQ_7CB04C8C.wem</Path>
 				</File>
+				<File Id="766540712" Language="SFX">
+					<ShortName>Foosteps-012.wav</ShortName>
+					<Path>SFX\Foosteps-012_2A91B1B2.wem</Path>
+				</File>
+				<File Id="798929187" Language="SFX">
+					<ShortName>Foosteps-005.wav</ShortName>
+					<Path>SFX\Foosteps-005_2A91B1B2.wem</Path>
+				</File>
 				<File Id="821581042" Language="SFX">
 					<ShortName>Destroy-004.wav</ShortName>
 					<Path>SFX\Destroy-004_2A91B1B2.wem</Path>
+				</File>
+				<File Id="837653799" Language="SFX">
+					<ShortName>Foosteps-009.wav</ShortName>
+					<Path>SFX\Foosteps-009_2A91B1B2.wem</Path>
 				</File>
 				<File Id="841508329" Language="SFX">
 					<ShortName>Destroy-002.wav</ShortName>
@@ -73,6 +114,14 @@
 					<ShortName>REVERSE CRASH.wav</ShortName>
 					<Path>SFX\REVERSE CRASH_7CB04C8C.wem</Path>
 				</File>
+				<File Id="888664821" Language="SFX">
+					<ShortName>Foosteps-013.wav</ShortName>
+					<Path>SFX\Foosteps-013_2A91B1B2.wem</Path>
+				</File>
+				<File Id="950569611" Language="SFX">
+					<ShortName>Foosteps-006.wav</ShortName>
+					<Path>SFX\Foosteps-006_2A91B1B2.wem</Path>
+				</File>
 				<File Id="978894297" Language="SFX">
 					<ShortName>GONG.wav</ShortName>
 					<Path>SFX\GONG_7CB04C8C.wem</Path>
@@ -80,6 +129,10 @@
 				<File Id="979045238" Language="SFX">
 					<ShortName>SHEPHERD HORN.wav</ShortName>
 					<Path>SFX\SHEPHERD HORN_7CB04C8C.wem</Path>
+				</File>
+				<File Id="1001600010" Language="SFX">
+					<ShortName>Foosteps-007.wav</ShortName>
+					<Path>SFX\Foosteps-007_2A91B1B2.wem</Path>
 				</File>
 				<File Id="1069133955" Language="SFX">
 					<ShortName>TUVAN MALE VOICE.wav</ShortName>
