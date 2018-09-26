@@ -16,7 +16,9 @@
 			<ShortName>INCLUETCOMAIN</ShortName>
 			<Path>INCLUETCOMAIN.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4013708024" Name="Play_Destroy" ObjectPath="\Events\Default Work Unit\Play_Destroy"/>
 				<Event Id="1058038914" Name="Play_MUSICGLOBAL" ObjectPath="\Events\Default Work Unit\Play_MUSICGLOBAL"/>
+				<Event Id="1311704800" Name="Stop_MUSICGLOBAL" ObjectPath="\Events\Default Work Unit\Stop_MUSICGLOBAL" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="16680800" Language="SFX">
@@ -31,6 +33,10 @@
 					<ShortName>ARP SYNTH.wav</ShortName>
 					<Path>SFX\ARP SYNTH_7CB04C8C.wem</Path>
 				</File>
+				<File Id="196430537" Language="SFX">
+					<ShortName>Destroy-001.wav</ShortName>
+					<Path>SFX\Destroy-001_2A91B1B2.wem</Path>
+				</File>
 				<File Id="321824748" Language="SFX">
 					<ShortName>SYNTHBASS.wav</ShortName>
 					<Path>SFX\SYNTHBASS_7CB04C8C.wem</Path>
@@ -38,6 +44,10 @@
 				<File Id="590797557" Language="SFX">
 					<ShortName>TAIKOS.wav</ShortName>
 					<Path>SFX\TAIKOS_7CB04C8C.wem</Path>
+				</File>
+				<File Id="592779459" Language="SFX">
+					<ShortName>Destroy-003.wav</ShortName>
+					<Path>SFX\Destroy-003_2A91B1B2.wem</Path>
 				</File>
 				<File Id="623369400" Language="SFX">
 					<ShortName>MALE SHOUT.wav</ShortName>
@@ -50,6 +60,14 @@
 				<File Id="762442242" Language="SFX">
 					<ShortName>RIQ.wav</ShortName>
 					<Path>SFX\RIQ_7CB04C8C.wem</Path>
+				</File>
+				<File Id="821581042" Language="SFX">
+					<ShortName>Destroy-004.wav</ShortName>
+					<Path>SFX\Destroy-004_2A91B1B2.wem</Path>
+				</File>
+				<File Id="841508329" Language="SFX">
+					<ShortName>Destroy-002.wav</ShortName>
+					<Path>SFX\Destroy-002_2A91B1B2.wem</Path>
 				</File>
 				<File Id="852013581" Language="SFX">
 					<ShortName>REVERSE CRASH.wav</ShortName>

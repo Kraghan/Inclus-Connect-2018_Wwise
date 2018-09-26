@@ -1,5 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1058038914	Play_MUSICGLOBAL			\Default Work Unit\Play_MUSICGLOBAL	
+	1311704800	Stop_MUSICGLOBAL			\Default Work Unit\Stop_MUSICGLOBAL	
+	4013708024	Play_Destroy			\Default Work Unit\Play_Destroy	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
@@ -8,11 +10,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	16680800	SHAKER	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\SHAKER_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\SHAKER		4696464
 	99668524	DARBUKA	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\DARBUKA_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\DARBUKA		4683081
 	192356166	ARP SYNTH	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\ARP SYNTH_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\ARP SYNTH		3956044
+	196430537	Destroy-001	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Destroy-001_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destroy\Destroy-001		77331
 	321824748	SYNTHBASS	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\SYNTHBASS_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\SYNTHBASS		3001707
 	590797557	TAIKOS	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\TAIKOS_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\TAIKOS		4948571
+	592779459	Destroy-003	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Destroy-003_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destroy\Destroy-003		70734
 	623369400	MALE SHOUT	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\MALE SHOUT_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\MALE SHOUT		794911
 	635068677	LEAD FEMALE SINGER	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\LEAD FEMALE SINGER_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\LEAD FEMALE SINGER		3463005
 	762442242	RIQ	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\RIQ_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\RIQ		5180249
+	821581042	Destroy-004	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Destroy-004_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destroy\Destroy-004		55637
+	841508329	Destroy-002	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Destroy-002_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destroy\Destroy-002		68750
 	852013581	REVERSE CRASH	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\REVERSE CRASH_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\REVERSE CRASH		749933
 	978894297	GONG	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\GONG_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\GONG		496433
 	979045238	SHEPHERD HORN	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\SHEPHERD HORN_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\SHEPHERD HORN		2301588

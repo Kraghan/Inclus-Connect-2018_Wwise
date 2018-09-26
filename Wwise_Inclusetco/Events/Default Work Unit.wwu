@@ -17,6 +17,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Destroy" ID="{05419112-6BA9-4597-9AED-69F22B5D7C75}">
+					<ChildrenList>
+						<Action Name="" ID="{B32C43C2-71E8-49AB-970B-EB2E565AAF2F}" ShortID="760490675">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Destroy" ID="{76ABFB3B-B0AA-4652-8E5C-6C7DE9E41764}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MUSICGLOBAL" ID="{A764CA83-39D9-4FE0-8AF3-E6B373E09075}">
+					<ChildrenList>
+						<Action Name="" ID="{1783B314-21F6-44A4-8B5B-F38536D34835}" ShortID="433959778">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSICGLOBAL" ID="{96A878B5-2B75-4536-B6C1-E03F1B098DC9}" WorkUnitID="{88D2739C-9B21-456E-80AE-86D111B6F970}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
