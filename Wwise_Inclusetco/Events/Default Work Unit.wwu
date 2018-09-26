@@ -59,6 +59,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_AMB" ID="{BC34E9B0-82A6-4BEA-AE75-697612E6D1A0}">
+					<ChildrenList>
+						<Action Name="" ID="{FF7A1F36-FDC8-4AE6-B439-31BEF1DB3399}" ShortID="291079959">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB" ID="{30A178EF-7FBE-48D8-91F5-BF8433E43FBE}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMB" ID="{80BF2BF4-A140-4940-A223-94E58ACE6321}">
+					<ChildrenList>
+						<Action Name="" ID="{B1632563-C11F-4D2A-AB4A-B0522EF12B6E}" ShortID="556118508">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB" ID="{30A178EF-7FBE-48D8-91F5-BF8433E43FBE}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

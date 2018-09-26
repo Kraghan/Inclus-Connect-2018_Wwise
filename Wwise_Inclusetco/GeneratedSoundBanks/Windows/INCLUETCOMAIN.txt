@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	435770000	Stop_AMB			\Default Work Unit\Stop_AMB	
 	1058038914	Play_MUSICGLOBAL			\Default Work Unit\Play_MUSICGLOBAL	
 	1311704800	Stop_MUSICGLOBAL			\Default Work Unit\Stop_MUSICGLOBAL	
+	2959533290	Play_AMB			\Default Work Unit\Play_AMB	
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 	4013708024	Play_Destroy			\Default Work Unit\Play_Destroy	
 
@@ -18,6 +20,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5216303	AMB	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\MACK Drone Low Wind Voice Medium_43C7CE41.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB		1959209
 	16680800	SHAKER	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\SHAKER_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\SHAKER		4696464
 	22502188	Foosteps-008	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Foosteps-008_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Foosteps-008		18955
 	44933870	Foosteps-010	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Foosteps-010_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Foosteps-010		18841

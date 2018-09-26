@@ -16,12 +16,18 @@
 			<ShortName>INCLUETCOMAIN</ShortName>
 			<Path>INCLUETCOMAIN.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2959533290" Name="Play_AMB" ObjectPath="\Events\Default Work Unit\Play_AMB"/>
 				<Event Id="4013708024" Name="Play_Destroy" ObjectPath="\Events\Default Work Unit\Play_Destroy"/>
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps"/>
 				<Event Id="1058038914" Name="Play_MUSICGLOBAL" ObjectPath="\Events\Default Work Unit\Play_MUSICGLOBAL"/>
+				<Event Id="435770000" Name="Stop_AMB" ObjectPath="\Events\Default Work Unit\Stop_AMB" MaxAttenuation="0.000000"/>
 				<Event Id="1311704800" Name="Stop_MUSICGLOBAL" ObjectPath="\Events\Default Work Unit\Stop_MUSICGLOBAL" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="5216303" Language="SFX">
+					<ShortName>MACK Drone Low Wind Voice Medium.wav</ShortName>
+					<Path>SFX\MACK Drone Low Wind Voice Medium_43C7CE41.wem</Path>
+				</File>
 				<File Id="16680800" Language="SFX">
 					<ShortName>SHAKER.wav</ShortName>
 					<Path>SFX\SHAKER_7CB04C8C.wem</Path>

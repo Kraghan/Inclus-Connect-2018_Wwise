@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EFF54BB4-3B44-48DE-8F6E-506CDCA3D33A}" SchemaVersion="89">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{EFF54BB4-3B44-48DE-8F6E-506CDCA3D33A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{EFF54BB4-3B44-48DE-8F6E-506CDCA3D33A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Mix SDC" ID="{9183A93B-452A-4EB2-87A4-EE0F13AD8E78}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="AMB" ID="{30A178EF-7FBE-48D8-91F5-BF8433E43FBE}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MUSICGLOBAL" ID="{C8CBDE52-ABDE-4C2C-BDB1-4A215B69B01A}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Footsteps" ID="{8764D6E1-FF78-40A7-8D65-26859586D756}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Destroy" ID="{05419112-6BA9-4597-9AED-69F22B5D7C75}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SlowMo" ID="{11B7B481-51B2-4930-BD05-E1E60CDE1943}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
