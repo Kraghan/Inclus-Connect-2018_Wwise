@@ -621,7 +621,34 @@
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand3" Type="Real32" Value="20000"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="20000">
+											<RTPCList>
+												<RTPC Name="" ID="{1B1FB80B-0F35-4662-88CA-A9CAE59EB451}" ShortID="349784717">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SlowMo" ID="{11B7B481-51B2-4930-BD05-E1E60CDE1943}" WorkUnitID="{9549F168-4921-4CD3-B055-5D3C3461F822}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FD61BA38-4E75-410F-BDCE-5F1FE513E5DE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="5"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>101.5374</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>12000</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="OnOffBand1" Type="bool" Value="False"/>
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 									</PropertyList>

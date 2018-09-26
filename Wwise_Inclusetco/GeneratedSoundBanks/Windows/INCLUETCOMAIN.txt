@@ -4,8 +4,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 	4013708024	Play_Destroy			\Default Work Unit\Play_Destroy	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3236148094	SlowMo			\Default Work Unit\SlowMo	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	695384145	RVB			\Default Work Unit\Master Audio Bus\RVB	
+
+Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	16680800	SHAKER	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\SHAKER_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\SHAKER		4696464
