@@ -6,20 +6,64 @@
 				<SoundcasterSession Name="Mix SDC" ID="{9183A93B-452A-4EB2-87A4-EE0F13AD8E78}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="AMB" ID="{30A178EF-7FBE-48D8-91F5-BF8433E43FBE}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
-							<Position X="0" Y="0"/>
+							<ObjectRef Name="Stop_AMB" ID="{80BF2BF4-A140-4940-A223-94E58ACE6321}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Destroy" ID="{05419112-6BA9-4597-9AED-69F22B5D7C75}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Jump" ID="{CA15293E-8909-45BA-A202-8544FBBD6196}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_MUSICGLOBAL" ID="{A764CA83-39D9-4FE0-8AF3-E6B373E09075}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_MUSICGLOBAL" ID="{C8CBDE52-ABDE-4C2C-BDB1-4A215B69B01A}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_AMB" ID="{BC34E9B0-82A6-4BEA-AE75-697612E6D1A0}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Disappear" ID="{53BA09FE-C879-435A-8A77-2243F50A02F1}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Footsteps" ID="{8764D6E1-FF78-40A7-8D65-26859586D756}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Appear" ID="{38821824-FF01-4D0F-B5EB-355C619C561B}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Feedback_Success" ID="{72F291D7-A6FD-4B78-9BD0-17927DF32DAB}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Shield_Off" ID="{682FFFCF-C038-4CD0-9BF3-4E3449C99218}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Destroy" ID="{05419112-6BA9-4597-9AED-69F22B5D7C75}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Dash" ID="{1842712B-C41E-4E61-82D2-C20C71895801}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Footsteps" ID="{8764D6E1-FF78-40A7-8D65-26859586D756}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Shield_On" ID="{69F0EC2B-BA90-4DBA-B9EB-1CE0578E712E}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="3" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

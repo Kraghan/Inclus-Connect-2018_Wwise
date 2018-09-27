@@ -143,6 +143,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Shield_On" ID="{69F0EC2B-BA90-4DBA-B9EB-1CE0578E712E}">
+					<ChildrenList>
+						<Action Name="" ID="{4803BA1D-147D-46B6-BA29-DB9B6D0A6447}" ShortID="869597580">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shield-On" ID="{B8D64885-16E7-4F77-A2F3-1B024F6E0873}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Feedback_Success" ID="{72F291D7-A6FD-4B78-9BD0-17927DF32DAB}">
+					<ChildrenList>
+						<Action Name="" ID="{86577BC9-2011-4E63-AC37-C4627C73BD95}" ShortID="997934104">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Feedback-Success" ID="{59996A69-9526-4467-88AD-B5E5D0043DE6}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Shield_Off" ID="{682FFFCF-C038-4CD0-9BF3-4E3449C99218}">
+					<ChildrenList>
+						<Action Name="" ID="{37C143F4-957F-4874-9CB8-40CAFBC2D3C8}" ShortID="836958224">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shield-Off" ID="{FCF98391-9E25-4075-A686-8AE484BCF6F4}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
