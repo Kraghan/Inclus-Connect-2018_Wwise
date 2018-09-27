@@ -87,6 +87,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Jump" ID="{CA15293E-8909-45BA-A202-8544FBBD6196}">
+					<ChildrenList>
+						<Action Name="" ID="{5BD37A98-B178-4C34-941C-7A599AC798FA}" ShortID="1059190313">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{6C5167AA-6257-4444-A84C-CCB64AFB2776}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dash" ID="{1842712B-C41E-4E61-82D2-C20C71895801}">
+					<ChildrenList>
+						<Action Name="" ID="{E75EA010-E5B3-44A7-9080-BEB5EC82FDD9}" ShortID="361801448">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dash" ID="{1844D7B6-C62E-46B5-B5CF-58779060F739}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

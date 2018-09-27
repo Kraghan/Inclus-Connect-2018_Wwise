@@ -17,8 +17,10 @@
 			<Path>INCLUETCOMAIN.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2959533290" Name="Play_AMB" ObjectPath="\Events\Default Work Unit\Play_AMB"/>
+				<Event Id="2211787386" Name="Play_Dash" ObjectPath="\Events\Default Work Unit\Play_Dash"/>
 				<Event Id="4013708024" Name="Play_Destroy" ObjectPath="\Events\Default Work Unit\Play_Destroy"/>
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps"/>
+				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Default Work Unit\Play_Jump"/>
 				<Event Id="1058038914" Name="Play_MUSICGLOBAL" ObjectPath="\Events\Default Work Unit\Play_MUSICGLOBAL"/>
 				<Event Id="435770000" Name="Stop_AMB" ObjectPath="\Events\Default Work Unit\Stop_AMB" MaxAttenuation="0.000000"/>
 				<Event Id="1311704800" Name="Stop_MUSICGLOBAL" ObjectPath="\Events\Default Work Unit\Stop_MUSICGLOBAL" MaxAttenuation="0.000000"/>
@@ -36,6 +38,10 @@
 					<ShortName>Foosteps-008.wav</ShortName>
 					<Path>SFX\Foosteps-008_2A91B1B2.wem</Path>
 				</File>
+				<File Id="39770710" Language="SFX">
+					<ShortName>Dash-NoVoice-004.wav</ShortName>
+					<Path>SFX\Dash-NoVoice-004_2A91B1B2.wem</Path>
+				</File>
 				<File Id="44933870" Language="SFX">
 					<ShortName>Foosteps-010.wav</ShortName>
 					<Path>SFX\Foosteps-010_2A91B1B2.wem</Path>
@@ -52,6 +58,14 @@
 					<ShortName>Destroy-001.wav</ShortName>
 					<Path>SFX\Destroy-001_2A91B1B2.wem</Path>
 				</File>
+				<File Id="256462143" Language="SFX">
+					<ShortName>Jump-Novoice-003.wav</ShortName>
+					<Path>SFX\Jump-Novoice-003_2A91B1B2.wem</Path>
+				</File>
+				<File Id="268410752" Language="SFX">
+					<ShortName>Jump-Voice-003.wav</ShortName>
+					<Path>SFX\Jump-Voice-003_2A91B1B2.wem</Path>
+				</File>
 				<File Id="275579964" Language="SFX">
 					<ShortName>Foosteps-011.wav</ShortName>
 					<Path>SFX\Foosteps-011_2A91B1B2.wem</Path>
@@ -64,9 +78,17 @@
 					<ShortName>Foosteps-002.wav</ShortName>
 					<Path>SFX\Foosteps-002_2A91B1B2.wem</Path>
 				</File>
+				<File Id="332494324" Language="SFX">
+					<ShortName>Jump-Novoice-004.wav</ShortName>
+					<Path>SFX\Jump-Novoice-004_2A91B1B2.wem</Path>
+				</File>
 				<File Id="376523382" Language="SFX">
 					<ShortName>Foosteps-003.wav</ShortName>
 					<Path>SFX\Foosteps-003_2A91B1B2.wem</Path>
+				</File>
+				<File Id="446254693" Language="SFX">
+					<ShortName>Jump-Novoice-001.wav</ShortName>
+					<Path>SFX\Jump-Novoice-001_2A91B1B2.wem</Path>
 				</File>
 				<File Id="483267495" Language="SFX">
 					<ShortName>Foosteps-001.wav</ShortName>
@@ -87,6 +109,18 @@
 				<File Id="635068677" Language="SFX">
 					<ShortName>LEAD FEMALE SINGER.wav</ShortName>
 					<Path>SFX\LEAD FEMALE SINGER_7CB04C8C.wem</Path>
+				</File>
+				<File Id="641625461" Language="SFX">
+					<ShortName>Jump-Novoice-002.wav</ShortName>
+					<Path>SFX\Jump-Novoice-002_2A91B1B2.wem</Path>
+				</File>
+				<File Id="645214160" Language="SFX">
+					<ShortName>Dash-NoVoice-003.wav</ShortName>
+					<Path>SFX\Dash-NoVoice-003_2A91B1B2.wem</Path>
+				</File>
+				<File Id="697334524" Language="SFX">
+					<ShortName>Jump-Voice-002.wav</ShortName>
+					<Path>SFX\Jump-Voice-002_2A91B1B2.wem</Path>
 				</File>
 				<File Id="711412047" Language="SFX">
 					<ShortName>Foosteps-004.wav</ShortName>
@@ -120,6 +154,14 @@
 					<ShortName>REVERSE CRASH.wav</ShortName>
 					<Path>SFX\REVERSE CRASH_7CB04C8C.wem</Path>
 				</File>
+				<File Id="869428988" Language="SFX">
+					<ShortName>Dash-NoVoice-001.wav</ShortName>
+					<Path>SFX\Dash-NoVoice-001_2A91B1B2.wem</Path>
+				</File>
+				<File Id="876387218" Language="SFX">
+					<ShortName>Dash-NoVoice-002.wav</ShortName>
+					<Path>SFX\Dash-NoVoice-002_2A91B1B2.wem</Path>
+				</File>
 				<File Id="888664821" Language="SFX">
 					<ShortName>Foosteps-013.wav</ShortName>
 					<Path>SFX\Foosteps-013_2A91B1B2.wem</Path>
@@ -139,6 +181,14 @@
 				<File Id="1001600010" Language="SFX">
 					<ShortName>Foosteps-007.wav</ShortName>
 					<Path>SFX\Foosteps-007_2A91B1B2.wem</Path>
+				</File>
+				<File Id="1020544549" Language="SFX">
+					<ShortName>Jump-Voice-001.wav</ShortName>
+					<Path>SFX\Jump-Voice-001_2A91B1B2.wem</Path>
+				</File>
+				<File Id="1059481908" Language="SFX">
+					<ShortName>Jump-Voice-004.wav</ShortName>
+					<Path>SFX\Jump-Voice-004_2A91B1B2.wem</Path>
 				</File>
 				<File Id="1069133955" Language="SFX">
 					<ShortName>TUVAN MALE VOICE.wav</ShortName>

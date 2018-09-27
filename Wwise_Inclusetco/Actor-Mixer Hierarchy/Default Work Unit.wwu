@@ -135,7 +135,7 @@
 						</Property>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
-								<Value>-17</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
@@ -439,6 +439,321 @@
 						<ActiveSource Name="MACK Drone Low Wind Voice Medium" ID="{88BAA04F-E405-4F6B-AD0E-BB8C5116FE5C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Dash" ID="{1844D7B6-C62E-46B5-B5CF-58779060F739}" ShortID="220670654">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>180</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="RVB" ID="{E250373A-429C-4AFA-B1F6-89B1AFB8161D}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Dash-NoVoice-001" ID="{2EF39CA1-7E63-4F03-A8AE-011B6FD89D0F}" ShortID="259215603">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dash-NoVoice-001" ID="{8BE026B1-05E5-48FA-8B75-625C0AEA823F}" ShortID="869428988">
+									<Language>SFX</Language>
+									<AudioFile>Dash-NoVoice-001.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dash-NoVoice-001" ID="{8BE026B1-05E5-48FA-8B75-625C0AEA823F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dash-NoVoice-002" ID="{672CEDC9-1E30-41E8-AF99-EFA9498083EF}" ShortID="753961860">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dash-NoVoice-002" ID="{83C29F57-A9AB-42DC-9DB5-65CDE7F1389C}" ShortID="876387218">
+									<Language>SFX</Language>
+									<AudioFile>Dash-NoVoice-002.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dash-NoVoice-002" ID="{83C29F57-A9AB-42DC-9DB5-65CDE7F1389C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dash-NoVoice-003" ID="{61C4C0DC-2C17-4BBC-9ECB-40B4D9D05A58}" ShortID="284604323">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dash-NoVoice-003" ID="{C3F6EA53-B8E6-4C4A-91BF-DB6E06BCF9E3}" ShortID="645214160">
+									<Language>SFX</Language>
+									<AudioFile>Dash-NoVoice-003.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dash-NoVoice-003" ID="{C3F6EA53-B8E6-4C4A-91BF-DB6E06BCF9E3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dash-NoVoice-004" ID="{74031DAB-D687-4A55-8EBE-F39125255A67}" ShortID="721098967">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dash-NoVoice-004" ID="{DEF98C45-27F7-4322-B080-1A72B2087287}" ShortID="39770710">
+									<Language>SFX</Language>
+									<AudioFile>Dash-NoVoice-004.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dash-NoVoice-004" ID="{DEF98C45-27F7-4322-B080-1A72B2087287}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Jump" ID="{6C5167AA-6257-4444-A84C-CCB64AFB2776}" ShortID="466813425">
+					<PropertyList>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="RVB" ID="{E250373A-429C-4AFA-B1F6-89B1AFB8161D}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Jump-Novoice-001" ID="{EF43AC30-E67E-4AB3-9F82-4E8D58E61319}" ShortID="402178127">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Novoice-001" ID="{A0646D6E-DBBF-49B8-B8E3-46063B717248}" ShortID="446254693">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Novoice-001.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Novoice-001" ID="{A0646D6E-DBBF-49B8-B8E3-46063B717248}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jump-Novoice-002" ID="{C8FCEB89-E3C2-404F-A008-5374C76EF89A}" ShortID="364198886">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Novoice-002" ID="{77EB8E70-4B25-4C79-8B50-FD9CB2D1117C}" ShortID="641625461">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Novoice-002.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Novoice-002" ID="{77EB8E70-4B25-4C79-8B50-FD9CB2D1117C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jump-Novoice-003" ID="{8ADB7A10-985B-4540-BD72-2E369120202B}" ShortID="826045998">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Novoice-003" ID="{CABDFC7C-497D-438E-8571-37D41F4CE614}" ShortID="256462143">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Novoice-003.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Novoice-003" ID="{CABDFC7C-497D-438E-8571-37D41F4CE614}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jump-Novoice-004" ID="{A0F4AB41-38B3-4A5C-AC78-31DDF205CAB0}" ShortID="983836694">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Novoice-004" ID="{4A3581B4-9D3F-4F64-8A22-7BACE87D7F1B}" ShortID="332494324">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Novoice-004.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Novoice-004" ID="{4A3581B4-9D3F-4F64-8A22-7BACE87D7F1B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jump-Voice-001" ID="{ED8A5C60-4E81-418B-881C-5C37E6FBE2DB}" ShortID="916378309">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Voice-001" ID="{5093C2FF-9C8E-431E-9544-564E43151CCA}" ShortID="1020544549">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Voice-001.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Voice-001" ID="{5093C2FF-9C8E-431E-9544-564E43151CCA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jump-Voice-002" ID="{91B451E4-CC3D-46B6-BE39-04B89C57BA43}" ShortID="812182876">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Voice-002" ID="{8DCBE1B2-3BAD-4ECF-BCA4-6E43FE8B7AF9}" ShortID="697334524">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Voice-002.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Voice-002" ID="{8DCBE1B2-3BAD-4ECF-BCA4-6E43FE8B7AF9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jump-Voice-003" ID="{DA789F70-A72F-400C-B24D-9100FB840DC8}" ShortID="1067244583">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Voice-003" ID="{4AEE3DFC-BDDB-4D1B-A160-318D69D98E5B}" ShortID="268410752">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Voice-003.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Voice-003" ID="{4AEE3DFC-BDDB-4D1B-A160-318D69D98E5B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jump-Voice-004" ID="{0F1D9E30-CC53-4054-9997-AD0C616FE40E}" ShortID="304008291">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Voice-004" ID="{BFF40DE3-B6CF-47AC-996A-8C2D701D56ED}" ShortID="1059481908">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Voice-004.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Voice-004" ID="{BFF40DE3-B6CF-47AC-996A-8C2D701D56ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
