@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<GameParameter Name="SlowMo" ID="{11B7B481-51B2-4930-BD05-E1E60CDE1943}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

@@ -69,7 +69,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="SlowMo" ID="{11B7B481-51B2-4930-BD05-E1E60CDE1943}"/>
-							<Value>100</Value>
+							<Value>1</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
