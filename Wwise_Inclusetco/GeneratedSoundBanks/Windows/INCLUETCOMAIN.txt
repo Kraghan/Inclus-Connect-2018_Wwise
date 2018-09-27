@@ -13,6 +13,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 	4013708024	Play_Destroy			\Default Work Unit\Play_Destroy	
 	4197639865	Play_Appear			\Default Work Unit\Play_Appear	
+	4253824882	Play_Feedback_Fail			\Default Work Unit\Play_Feedback_Fail	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3236148094	SlowMo			\Default Work Unit\SlowMo	
@@ -42,6 +43,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	256462143	Jump-Novoice-003	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Jump-Novoice-003_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump\Jump-Novoice-003		23153
 	268410752	Jump-Voice-003	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Jump-Voice-003_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump\Jump-Voice-003		23499
 	275579964	Foosteps-011	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Foosteps-011_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Foosteps-011		18406
+	295037141	Feedback_Fail	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Feedback_Fail_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedback_Fail		71892
 	321824748	SYNTHBASS	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\SYNTHBASS_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\SYNTHBASS		3001707
 	327839617	Foosteps-002	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Foosteps-002_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Foosteps-002		12986
 	332494324	Jump-Novoice-004	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Jump-Novoice-004_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump\Jump-Novoice-004		23250

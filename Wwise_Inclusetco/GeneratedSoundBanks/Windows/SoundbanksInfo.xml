@@ -21,6 +21,7 @@
 				<Event Id="2211787386" Name="Play_Dash" ObjectPath="\Events\Default Work Unit\Play_Dash"/>
 				<Event Id="4013708024" Name="Play_Destroy" ObjectPath="\Events\Default Work Unit\Play_Destroy"/>
 				<Event Id="1060825901" Name="Play_Disappear" ObjectPath="\Events\Default Work Unit\Play_Disappear"/>
+				<Event Id="4253824882" Name="Play_Feedback_Fail" ObjectPath="\Events\Default Work Unit\Play_Feedback_Fail"/>
 				<Event Id="24001019" Name="Play_Feedback_Success" ObjectPath="\Events\Default Work Unit\Play_Feedback_Success"/>
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps"/>
 				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Default Work Unit\Play_Jump"/>
@@ -87,6 +88,10 @@
 				<File Id="275579964" Language="SFX">
 					<ShortName>Foosteps-011.wav</ShortName>
 					<Path>SFX\Foosteps-011_2A91B1B2.wem</Path>
+				</File>
+				<File Id="295037141" Language="SFX">
+					<ShortName>Feedback_Fail.wav</ShortName>
+					<Path>SFX\Feedback_Fail_2A91B1B2.wem</Path>
 				</File>
 				<File Id="321824748" Language="SFX">
 					<ShortName>SYNTHBASS.wav</ShortName>
