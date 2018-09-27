@@ -423,20 +423,20 @@
 										</MusicTrackSequence>
 									</SequenceList>
 								</MusicTrack>
-								<MusicTrack Name="LEAD FEMALE SINGER" ID="{04512941-8F51-4884-AE52-EB75717B5FED}" ShortID="428014169">
+								<MusicTrack Name="LEAD FEMALE SINGER" ID="{BA391869-E4B2-4AB6-9428-2F25670929A8}" ShortID="770993321">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="LEAD FEMALE SINGER" ID="{30D5B65D-B47B-4A99-B993-BCA31F560A23}" ShortID="635068677">
+										<AudioFileSource Name="LEAD FEMALE SINGER" ID="{D970CED8-E333-46FF-9A98-C7EE17F624F3}" ShortID="688038215">
 											<Language>SFX</Language>
 											<AudioFile>LEAD FEMALE SINGER.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{10AC94C3-7953-430F-97F6-B81004FB955F}">
+										<MusicTransition Name="Root" ID="{DD21669D-55D3-4524-88E8-F340916B4F85}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -444,15 +444,15 @@
 										</MusicTransition>
 									</TransitionList>
 									<SequenceList>
-										<MusicTrackSequence Name="" ID="{7F95DD21-B0F3-4983-A70A-C82196EA9CCE}">
+										<MusicTrackSequence Name="" ID="{2FB61C3F-238D-4556-9548-D8BDA496A6A5}">
 											<ClipList>
-												<MusicClip Name="LEAD FEMALE SINGER" ID="{7DA1BC00-2680-4A19-B88D-C24677AE1E36}">
+												<MusicClip Name="LEAD FEMALE SINGER" ID="{DEA1D830-A980-404C-A4EE-481FB7F83A0D}">
 													<PropertyList>
 														<Property Name="EndTrimOffset" Type="Real64" Value="105000"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
 														<Property Name="FadeOutMode" Type="int16" Value="0"/>
 													</PropertyList>
-													<AudioSourceRef Name="LEAD FEMALE SINGER" ID="{30D5B65D-B47B-4A99-B993-BCA31F560A23}"/>
+													<AudioSourceRef Name="LEAD FEMALE SINGER" ID="{D970CED8-E333-46FF-9A98-C7EE17F624F3}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>

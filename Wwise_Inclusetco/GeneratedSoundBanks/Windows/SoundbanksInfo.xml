@@ -129,10 +129,6 @@
 					<ShortName>MALE SHOUT.wav</ShortName>
 					<Path>SFX\MALE SHOUT_7CB04C8C.wem</Path>
 				</File>
-				<File Id="635068677" Language="SFX">
-					<ShortName>LEAD FEMALE SINGER.wav</ShortName>
-					<Path>SFX\LEAD FEMALE SINGER_7CB04C8C.wem</Path>
-				</File>
 				<File Id="641625461" Language="SFX">
 					<ShortName>Jump-Novoice-002.wav</ShortName>
 					<Path>SFX\Jump-Novoice-002_2A91B1B2.wem</Path>
@@ -144,6 +140,10 @@
 				<File Id="683381286" Language="SFX">
 					<ShortName>Shield-Off.wav</ShortName>
 					<Path>SFX\Shield-Off_2A91B1B2.wem</Path>
+				</File>
+				<File Id="688038215" Language="SFX">
+					<ShortName>LEAD FEMALE SINGER.wav</ShortName>
+					<Path>SFX\LEAD FEMALE SINGER_7CB04C8C.wem</Path>
 				</File>
 				<File Id="697334524" Language="SFX">
 					<ShortName>Jump-Voice-002.wav</ShortName>

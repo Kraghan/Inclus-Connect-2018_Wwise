@@ -199,6 +199,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Feedback_Fail" ID="{2DDB0E75-CA5B-4321-ADD6-8D0E766BD56A}">
+					<ChildrenList>
+						<Action Name="" ID="{46EEE33E-64C9-4592-AB47-FE7F40FF9963}" ShortID="160252347">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Feedback_Fail" ID="{1760875D-D6E7-4F91-9A6E-416E48276246}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

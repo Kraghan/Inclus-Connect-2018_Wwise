@@ -34,6 +34,10 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Feedback_Fail" ID="{2DDB0E75-CA5B-4321-ADD6-8D0E766BD56A}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Footsteps" ID="{8764D6E1-FF78-40A7-8D65-26859586D756}" WorkUnitID="{04D1AD93-A368-4A75-8FEB-52B9B8B81107}"/>
 							<Position X="2" Y="0"/>
 						</Module>
