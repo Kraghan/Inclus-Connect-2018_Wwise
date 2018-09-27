@@ -804,6 +804,22 @@
 							<Language>SFX</Language>
 							<AudioFile>Disappear-002.wav</AudioFile>
 						</AudioFileSource>
+						<AudioFileSource Name="Jump-Landing-001" ID="{B065F5B6-2BB7-4B7C-8581-991446C71F50}" ShortID="138817614">
+							<Language>SFX</Language>
+							<AudioFile>Jump-Landing-001.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="Jump-Landing-002" ID="{26596896-4A2F-457F-B1DE-E7BD833601F9}" ShortID="97221082">
+							<Language>SFX</Language>
+							<AudioFile>Jump-Landing-002.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="Jump-Landing-003" ID="{B4167E19-081E-4523-AEF0-C5A42A8C474E}" ShortID="1004241715">
+							<Language>SFX</Language>
+							<AudioFile>Jump-Landing-003.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="Jump-Landing-004" ID="{10A2FBE1-0F82-4B27-97C6-DE36321918CC}" ShortID="939234257">
+							<Language>SFX</Language>
+							<AudioFile>Jump-Landing-004.wav</AudioFile>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Disappear-002" ID="{2DB89396-4E0B-47E5-9A21-0115A65D3F36}" Platform="Linked"/>
@@ -901,6 +917,129 @@
 						<ActiveSource Name="Feedback-Sucess" ID="{13229B9E-5F34-48B0-A00E-262C97B2589D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Jump_Landing" ID="{0E4FAAC3-F869-4BC4-99C7-3433C99FA09E}" ShortID="170058147">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E02A0272-C923-4729-AF6B-7C88F1A19F73}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="278"/>
+											<Property Name="Min" Type="Real64" Value="-227"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="RVB" ID="{E250373A-429C-4AFA-B1F6-89B1AFB8161D}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Jump-Landing-001" ID="{185AC179-072E-4C67-8E44-C6B0198854F7}" ShortID="290332728">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Landing-001" ID="{A9497A40-8666-4057-8837-0E49B808084D}" ShortID="1019978543">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Landing-001.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="138817614"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Landing-001" ID="{A9497A40-8666-4057-8837-0E49B808084D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jump-Landing-002" ID="{03A8BAAC-6C1F-4179-B2F0-798608A36925}" ShortID="286911392">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Landing-002" ID="{FD073F9E-0E3E-4AC2-B8D6-C10646F36A70}" ShortID="1051694569">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Landing-002.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="97221082"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Landing-002" ID="{FD073F9E-0E3E-4AC2-B8D6-C10646F36A70}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jump-Landing-003" ID="{DF765E45-E79A-4F25-A813-043434430BFF}" ShortID="935322496">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Landing-003" ID="{91010F20-E03D-4FE3-8EDD-0F8430AB5D15}" ShortID="296910677">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Landing-003.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1004241715"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Landing-003" ID="{91010F20-E03D-4FE3-8EDD-0F8430AB5D15}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jump-Landing-004" ID="{08E827F0-DB53-49B0-818A-66826F02A983}" ShortID="936825999">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C54A27-F849-46C8-8A86-B77ADE12BCB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump-Landing-004" ID="{C4B5B35C-8E2E-4605-B827-734B3F0C74D7}" ShortID="298636304">
+									<Language>SFX</Language>
+									<AudioFile>Jump-Landing-004.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="939234257"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump-Landing-004" ID="{C4B5B35C-8E2E-4605-B827-734B3F0C74D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

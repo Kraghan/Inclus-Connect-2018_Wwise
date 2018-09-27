@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2959533290	Play_AMB			\Default Work Unit\Play_AMB	
 	3637466571	Play_Shield_Off			\Default Work Unit\Play_Shield_Off	
 	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
+	3808321334	Play_Jump_Landing			\Default Work Unit\Play_Jump_Landing	
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 	4013708024	Play_Destroy			\Default Work Unit\Play_Destroy	
 	4197639865	Play_Appear			\Default Work Unit\Play_Appear	
@@ -32,7 +33,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	22502188	Foosteps-008	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Foosteps-008_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Foosteps-008		18955
 	39770710	Dash-NoVoice-004	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Dash-NoVoice-004_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dash\Dash-NoVoice-004		27057
 	44933870	Foosteps-010	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Foosteps-010_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Foosteps-010		18841
+	97221082	Jump-Landing-002	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Jump-Landing-002_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump_Landing\Jump-Landing-002		17977
 	99668524	DARBUKA	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\DARBUKA_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\DARBUKA		4683081
+	138817614	Jump-Landing-001	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Jump-Landing-001_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump_Landing\Jump-Landing-001		14954
 	184550670	Disappear	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Disappear-001_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Disappear		63170
 	192356166	ARP SYNTH	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\ARP SYNTH_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\ARP SYNTH		3956044
 	196430537	Destroy-001	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Destroy-001_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destroy\Destroy-001		77331
@@ -66,11 +69,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	869428988	Dash-NoVoice-001	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Dash-NoVoice-001_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dash\Dash-NoVoice-001		25187
 	876387218	Dash-NoVoice-002	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Dash-NoVoice-002_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dash\Dash-NoVoice-002		25368
 	888664821	Foosteps-013	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Foosteps-013_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Foosteps-013		17273
+	939234257	Jump-Landing-004	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Jump-Landing-004_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump_Landing\Jump-Landing-004		18807
 	950569611	Foosteps-006	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Foosteps-006_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Foosteps-006		18121
 	972173130	Shield-On	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Shield-On_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shield-On		26577
 	978894297	GONG	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\GONG_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\GONG		496433
 	979045238	SHEPHERD HORN	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\SHEPHERD HORN_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\SHEPHERD HORN		2301588
 	1001600010	Foosteps-007	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Foosteps-007_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Foosteps-007		17570
+	1004241715	Jump-Landing-003	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Jump-Landing-003_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump_Landing\Jump-Landing-003		20702
 	1020544549	Jump-Voice-001	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Jump-Voice-001_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump\Jump-Voice-001		33579
 	1059481908	Jump-Voice-004	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Jump-Voice-004_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump\Jump-Voice-004		26020
 	1069133955	TUVAN MALE VOICE	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\TUVAN MALE VOICE_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\TUVAN MALE VOICE		4282013

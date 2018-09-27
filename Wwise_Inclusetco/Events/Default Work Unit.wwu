@@ -185,6 +185,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Jump_Landing" ID="{D3CEF144-4D0D-485B-A712-4FE6ADB10FF5}">
+					<ChildrenList>
+						<Action Name="" ID="{55DD6AFA-F03F-46EC-BD6C-B338FE7188A6}" ShortID="320745857">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump_Landing" ID="{0E4FAAC3-F869-4BC4-99C7-3433C99FA09E}" WorkUnitID="{B9916E2B-4803-4CE6-84C3-63EFB0F8A03B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
