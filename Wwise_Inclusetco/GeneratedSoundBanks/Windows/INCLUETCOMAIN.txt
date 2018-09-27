@@ -1,12 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	435770000	Stop_AMB			\Default Work Unit\Stop_AMB	
 	1058038914	Play_MUSICGLOBAL			\Default Work Unit\Play_MUSICGLOBAL	
+	1060825901	Play_Disappear			\Default Work Unit\Play_Disappear	
 	1311704800	Stop_MUSICGLOBAL			\Default Work Unit\Stop_MUSICGLOBAL	
 	2211787386	Play_Dash			\Default Work Unit\Play_Dash	
 	2959533290	Play_AMB			\Default Work Unit\Play_AMB	
 	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 	4013708024	Play_Destroy			\Default Work Unit\Play_Destroy	
+	4197639865	Play_Appear			\Default Work Unit\Play_Appear	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3236148094	SlowMo			\Default Work Unit\SlowMo	
@@ -28,6 +30,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	39770710	Dash-NoVoice-004	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Dash-NoVoice-004_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dash\Dash-NoVoice-004		27057
 	44933870	Foosteps-010	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Foosteps-010_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Foosteps-010		18841
 	99668524	DARBUKA	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\DARBUKA_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\DARBUKA		4683081
+	184550670	Disappear	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Disappear-001_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Disappear		63170
 	192356166	ARP SYNTH	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\ARP SYNTH_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\ARP SYNTH		3956044
 	196430537	Destroy-001	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Destroy-001_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destroy\Destroy-001		77331
 	256462143	Jump-Novoice-003	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Jump-Novoice-003_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump\Jump-Novoice-003		23153
@@ -53,6 +56,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	821581042	Destroy-004	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Destroy-004_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destroy\Destroy-004		55637
 	837653799	Foosteps-009	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Foosteps-009_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Foosteps-009		17294
 	841508329	Destroy-002	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Destroy-002_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destroy\Destroy-002		68750
+	851255009	Appear	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Disappear-002_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Appear		53225
 	852013581	REVERSE CRASH	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\REVERSE CRASH_7CB04C8C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSICGLOBAL\MUSIC1\REVERSE CRASH		749933
 	869428988	Dash-NoVoice-001	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Dash-NoVoice-001_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dash\Dash-NoVoice-001		25187
 	876387218	Dash-NoVoice-002	D:\ENJMIN 2017-2018-Lourd\Wwise_Incluetco\Inclus-Connect-2018_Wwise\Wwise_Inclusetco\.cache\Windows\SFX\Dash-NoVoice-002_2A91B1B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dash\Dash-NoVoice-002		25368
