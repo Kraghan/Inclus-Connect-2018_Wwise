@@ -72,8 +72,16 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="Music_Volume" ID="{36909C1F-C024-4379-8F4E-DE62D7167BDE}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SlowMo" ID="{11B7B481-51B2-4930-BD05-E1E60CDE1943}"/>
 							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFX_Volume" ID="{5C527A6C-0E27-4E71-B2EE-624BC90CC791}"/>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

@@ -6,11 +6,6 @@
 				<MusicPlaylistContainer Name="MUSICGLOBAL" ID="{96A878B5-2B75-4536-B6C1-E03F1B098DC9}" ShortID="590002472">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="80"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-2</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -20,7 +15,7 @@
 							<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
+							<ObjectRef Name="Musique" ID="{290BF87A-4929-40DC-B0AE-7B03FF195FF3}" WorkUnitID="{DD15A29E-29CE-4B9A-A0C5-F35919CAAD3C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

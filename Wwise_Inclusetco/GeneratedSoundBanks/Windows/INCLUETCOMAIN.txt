@@ -16,9 +16,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	4253824882	Play_Feedback_Fail			\Default Work Unit\Play_Feedback_Fail	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1006694123	Music_Volume			\Default Work Unit\Music_Volume	
+	1564184899	SFX_Volume			\Default Work Unit\SFX_Volume	
 	3236148094	SlowMo			\Default Work Unit\SlowMo	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	69765534	Musique			\Default Work Unit\Master Audio Bus\Musique	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
